@@ -459,6 +459,25 @@
 
 }
 
+/* Footer band style start here */
+.footer-band{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1365px;
+    height:65px;
+    background-color: #21A900;
+    padding:20px 200px;
+
+}
+.footer-band p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#ffffff;
+
+}
+
 
 
 
