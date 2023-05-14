@@ -134,4 +134,58 @@
     padding-bottom: 20px;
 }
 
+/* Populer Manu style start here */
+.populer-main{
+    background-color: #F7F8F6;
+    width: 1365px;    
+}
+.populer-head {
+    text-align: center;
+    padding-top:35px;
+    padding-bottom:35px;
+}
+
+.populer-head span{
+    color:#21A900;
+    font-family: 'Italianno', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 22px;
+}
+.populer-head h3{
+    color:#000000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    margin:15px 35px;
+}
+.populer-card{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    justify-content: center;
+    gap:20px;
+    
+    
+    
+}
+.populer-card-menu{
+    width: 370px;
+    height: 520px;
+    background-color: #ffffff;
+
+}
+.populer-card-menu img{
+    width: 350px;
+    height: 340px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F7F8F7;
+    margin-top: 20px;
+    margin-bottom:30xp;
+    padding:10px;
+}
+
+
 
