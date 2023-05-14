@@ -297,6 +297,69 @@
     margin-top: 25px;
 }
 
+/* Contact us section style start here */
+.contact-input1{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content:center;
+    gap:10px;
+    text-align:center;
+    padding-left:30px;
+
+}
+.contact-main{
+    
+    background-color: #21A900;
+    text-align:center;
+    /* width:640px; */
+    height:430px;
+    margin-top:45px;   
+    position:relative;
+    text-align: center;
+    margin: 0 auto;  
+    width:50%;  
+    
+    
+}
+
+.contact-main h4{
+    color:#000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-transform: uppercase;
+}
+.contact-input1 input{
+    width: 300px;
+    height: 45px;
+   
+}
+.contact-input textarea{
+    width:680px;
+    height: 150px;
+    margin-top:20px;
+
+  
+
+}
+#btn{
+    width: 200px;
+    height: 62px;
+    background-color:#FFFFFF;
+    border:none;
+    margin-top: 15px;
+}
+#btn i{
+    color:#0D1C37;
+    font-size: 18px;
+    padding-left:8px;
+}
+
+
+
 
 
 
