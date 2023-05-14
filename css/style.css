@@ -10,6 +10,24 @@
 
 /* Common style  */
 
+.starting_head1{
+    color:#21A900;
+    font-family: 'Italianno', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 22px;
+    margin-top:35px;
+}
+.starting_head2{
+    color:#000000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    margin:15px 35px;
+
+}
+
 /* Hero section style start here */
 .container {
     background-color: #000000;
@@ -62,6 +80,33 @@
 }
 
 /* Majority menu style start here */
+
+.maj-content-all span{
+    color:#21A900;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Italianno', cursive;
+    padding-bottom:20px;
+}
+
+.maj-content-all h3{
+    color:#000000;
+    font-size: 35px;
+    font-weight:700;
+    line-height: 52px;
+    padding-bottom:20px;
+}
+.maj-content-all p{
+    color:#646464;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom:20px
+
+}
+
+
 .majority-img-main{
     display: flex;
     align-items:center;
@@ -71,6 +116,7 @@
     padding-left:80px;
     
 }
+
 .maj-img1 img{
     width: 337px;
     height: 475px;
@@ -87,30 +133,9 @@
     gap:40px;
     padding-right: 200px;
 }
-.maj-content-all small{
-    font-family: 'Italianno', cursive;
-    color:#21A900;
-    font-size: 20px;
-    font-weight: 400;
-    line-height:28px;
 
-}
-.maj-content-all h2{
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 52px;
-    color:#000000;
-    padding-top: 20px;
-    padding-bottom:20px
-}
-.maj-content-all p{
-    color:#646464;
-    font-size: 16px;
-    font-weight: 400;
-    line-height:28px;
-    padding-bottom:20px;
-    
-}
+ 
+
 .maj-content-val{
     display: flex;
     align-items: center;
@@ -145,21 +170,7 @@
     padding-bottom:35px;
 }
 
-.populer-head span{
-    color:#21A900;
-    font-family: 'Italianno', cursive;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28px;
-    margin-bottom: 22px;
-}
-.populer-head h3{
-    color:#000000;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 35px;
-    margin:15px 35px;
-}
+
 .populer-card{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -214,6 +225,30 @@
     line-height: 28px;
     text-align: right;   
 }
+
+/* Gellery section style start here */
+.gallery_head{
+    text-align: center;
+}
+
+
+.galery-img-main{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    align-items:center;
+    justify-content:space-between;
+    /* justify-content:center; */
+    gap:18px;
+    width:1365px;
+}
+.galery-img-main img{
+    width:350px;
+    height:350px;
+    border:none;
+}
+
+
+
 
 
 
