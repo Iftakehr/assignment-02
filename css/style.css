@@ -1,8 +1,8 @@
 /* Google fonts link */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;200;300;400;600&family=Noto+Serif&family=Outfit:wght@400;500;600;700;800;900&display=swap');
 
-*{
-    margin:0;
+* {
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 
@@ -11,36 +11,40 @@
 /* Common style  */
 
 /* Hero section style start here */
-.container{
+.container {
     background-color: #000000;
     width: 1365px;
     height: 700px;
-    color:#ffffff;
+    color: #ffffff;
 }
 
-.hero-main{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 181px;
-    padding-left:80px;
+    padding-left: 80px;
     padding-right: 20px;
-    
+
 }
-.hero-content{
+
+.hero-content {
     width: 60%;
 }
-.hero-img{
+
+.hero-img {
     width: 40%;
 }
-.hero-content h1{
+
+.hero-content h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     font-weight: 700;
-    line-height: 83px;   
+    line-height: 83px;
 
 }
-.hero-content p{
+
+.hero-content p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -48,11 +52,86 @@
     padding-bottom: 20px;
 
 }
-.btn{
+
+.btn {
     width: 200px;
     height: 63px;
     background-color: #21A900;
-    color:#ffffff;
-    border:none;
+    color: #ffffff;
+    border: none;
 }
+
+/* Majority menu style start here */
+.majority-img-main{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap:24px;
+    padding-top:22px;
+    padding-left:80px;
+    
+}
+.maj-img1 img{
+    width: 337px;
+    height: 475px;
+}
+.img{
+    width: 100%;
+    
+}
+
+.majority-main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:40px;
+    padding-right: 200px;
+}
+.maj-content-all small{
+    font-family: 'Italianno', cursive;
+    color:#21A900;
+    font-size: 20px;
+    font-weight: 400;
+    line-height:28px;
+
+}
+.maj-content-all h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52px;
+    color:#000000;
+    padding-top: 20px;
+    padding-bottom:20px
+}
+.maj-content-all p{
+    color:#646464;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:28px;
+    padding-bottom:20px;
+    
+}
+.maj-content-val{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+}
+.val span{
+    color:#000000;
+    font-size: 35px;
+    font-weight: 700;
+    line-height:41px;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+.val p{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:21px;
+    padding-top:12px;
+    padding-bottom: 20px;
+}
+
 
